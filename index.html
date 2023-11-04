@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=yes">
+    <link rel="Icon" type="jpg" href="C:\Users\allad\OneDrive\Desktop\WeatherApp\Circle-icons-weather.svg.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="C:\Users\allad\OneDrive\Desktop\WeatherApp\style.css">
+
+    <button id="toggleBtn">Dark Mode</button>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <div class="datetime">
+        <div class="time"></div>
+        <div class="date"></div>
+    </div>
+
+</head>
+
+<body>
+    
+    <div class="container1">
+        <div class="weatherimage">
+            <img class="div1" src="C:\Users\allad\OneDrive\Desktop\WeatherApp\Circle-icons-weather.svg.png" href="#" alt="">
+            <h1>Weather App</h1>
+        </div>
+        
+        <div class="input-group">
+            <input id="cityInput" type="text" id="cityInput" placeholder="Enter your city name">
+            <button type="button" onclick="GetInfo()" class="search-btn">Search</button>        
+        </div>
+
+        <div class="weather-card">
+            <h2 id="cityName" class="city">City Name</h2>
+            <div class="weather">
+                <img class="mainimage" id="img1" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+                <p class="temperature" id="temp">0 &deg;C</p>
+                <p class="description" id="description">Sunny</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "forecast-cards">   
+            <div class = "icons">
+                <p class="weather" id="day1"></p>
+                
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" class="imgClass" id="img1">
+                <div class = "details">
+                    <p class="minValues" id="day1Min">Min: 0 &deg;C</p>
+                    <p class="maxValues" id="day1Max">Max: 0 &deg;C</p>
+                    <p class="descriptionval" id="description1">Sunny</p>
+                </div>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day2"></p>
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" class="imgClass" id="img2">
+                <div class = "details">
+                <p class="minValues" id="day2Min">Min: 0 &deg;C</p>
+                <p class="maxValues" id="day2Max">Max: 0 &deg;C</p>
+                <p class="descriptionval" id="description2">Sunny</p>
+                </div>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day3"></p>
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" class="imgClass" id="img3">
+                <div class = "details"> 
+                <p class="minValues" id="day3Min">Min: 0 &deg;C</p>
+                <p class="maxValues" id="day3Max">Max: 0 &deg;C</p>
+                <p class="descriptionval" id="description3">Sunny</p>
+                </div>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day4"></p>
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" class="imgClass" id="img4">
+                <div class = "details">
+                <p class="minValues" id="day4Min">Min: 0 &deg;C</p>
+                <p class="maxValues" id="day4Max">Max: 0 &deg;C</p>
+                <p class="descriptionval" id="description4">Sunny</p>
+                </div>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day5"></p>
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" class="imgClass" id="img5">
+                <div class = "details">
+                <p class="minValues" id="day5Min">Min: 0 &deg;C</p>
+                <p class="maxValues" id="day5Max">Max: 0 &deg;C</p>
+                <p class="descriptionval" id="description5">Sunny</p>
+                </div>
+            </div>
+    </div>
+
+
+        <script src="C:\Users\allad\OneDrive\Desktop\WeatherApp\main.js"></script>
+
+
+</body>
+</html>
