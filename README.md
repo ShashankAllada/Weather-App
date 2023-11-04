@@ -1,4 +1,4 @@
-# Weather Forecast Web App
+# [Weather Forecast Web App](https://5ch2q3.csb.app/)
 
 ## Overview
 
@@ -22,7 +22,7 @@ The Weather Forecast Web App is a user-friendly online application that provides
 
 ## How to Use
 
-1. **Access the Web App**: Visit the Weather Forecast Web App using the provided [URL](https://5ch2q3.csb.app/).
+1. **Access the Web App**: Visit the [Weather Forecast Web App](https://5ch2q3.csb.app/) using the provided URL.
 
 2. **Search for a Location**: In the search bar, enter the name of a location or a postal code you want to check the weather for.
 
@@ -35,9 +35,4 @@ The Weather Forecast Web App is a user-friendly online application that provides
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Weather Data API**: [OpenWeatherMap, Weatherstack]
-
-## Acknowledgments
-
-- [Any Acknowledgments or Credits You Want to Mention]
-- [Inspiration, Code Snippets, Tutorials, etc.]
+- **Weather Data API**: OpenWeatherMap, Weatherstack
