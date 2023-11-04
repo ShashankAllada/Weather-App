@@ -4,23 +4,33 @@ The Weather Forecast Web App is a user-friendly online application that provides
 
 # Key Features
 **Location-Based Forecast:** Users can enter a location or postal code in the search bar to obtain current weather conditions and a 5-day weather forecast for that area.
+
 **Detailed Weather Information:** The app offers detailed weather information, including temperature, humidity, wind speed, and weather conditions (e.g., rain, snow, clear skies) for the selected location.
+
 **Interactive User Interface:** The web app features an interactive and visually appealing user interface, making it easy to navigate and access weather data effortlessly.
+
 **Responsive Design:** The application is designed to be responsive, ensuring a seamless user experience on various devices, including desktop computers, tablets, and smartphones.
+
 **Data Accuracy:** The weather information is sourced from reliable weather data providers, ensuring accuracy and reliability.
+
 **5-Day Forecast:** Users can view a 5-day weather forecast, helping them plan for the week ahead with information on expected temperature variations and weather conditions.
+
 **User-Friendly Search:** The search feature is user-friendly and allows users to enter locations or postal codes with ease. The application then fetches the relevant weather data.
 
 # How to Use
 **Access the Web App:** Visit the Weather Forecast Web App using the provided URL (add your app's URL).
+
 **Search for a Location:** In the search bar, enter the name of a location or a postal code you want to check the weather for.
+
 **View Weather Information:** Once the location is entered, the app will display the current weather information and a 5-day forecast for the selected area.
+
 **Explore the Forecast:** Users can explore the 5-day forecast to plan activities and make weather-related decisions.
+
 **Responsive Design:** The app's responsive design ensures that you can access weather information on various devices, including mobile phones and tablets.
 
 # Technologies Used
-**Frontend:** HTML, CSS, JavaScript
-**Weather Data API:** [OpenWeatherMap, Weatherstack]
+**Frontend:** HTML, CSS, JavaScript \n
+**Weather Data API:** OpenWeatherMap, Weatherstack
 
 # Credits
 Weather data provided by [Name of Weather Data Provider].
